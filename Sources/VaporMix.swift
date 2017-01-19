@@ -11,7 +11,7 @@ public class Mix: BasicTag {
     private let publicDirName = "Public"
     private let manifestNode: Node?
 
-    convenience init() {
+    public convenience init() {
         self.init(manifestNode: nil)
     }
 
